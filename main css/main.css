@@ -1,0 +1,134 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Helvetica !important;
+    margin: 0;
+}
+
+.bg-nav {
+    background-color: #F1F3FF;
+}
+
+.bg-hero {
+    background-color: #F1F3FF;
+}
+
+.bg-hero-banner {
+    padding-top: 4%;
+}
+
+h1 {
+    font-size: calc(1.3rem + 1.5vw)
+}
+
+.content-2 {
+    /* position: absolute; */
+    /* margin-left: 832px; */
+    float: right;
+    margin-right: -15px;
+}
+
+.list-reset {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.img-list {
+    margin-right: 7%;
+}
+
+.icon-why-us {
+    width: 15%;
+    margin: 10% 8% 0;
+}
+
+.card-container {
+    margin: 10px;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+.card-owl {
+    border-radius: 8px;
+}
+
+.icon-rate {
+    width: 100px !important;
+}
+
+.owl-nav {
+    display: block !important;
+    border: 10px;
+}
+
+.bg-testimonial {
+    border-radius: 8px;
+    background-color: #F1F3FF;
+}
+
+.bg-rent-hero {
+    color: white;
+    border-radius: 10px;
+    background-color: #0D28A6;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #000;
+    text-align: left;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.card-body {
+    text-align: left;
+}
+
+#faq .card .card-header .btn-header-link {
+    color: #fff;
+    display: block;
+    text-align: left;
+    color: #222;
+}
+
+#faq .card .card-header .btn-header-link:after {
+    content: "\f106";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    float: right;
+}
+
+#faq .card .card-header .btn-header-link.collapsed:after {
+    content: "\f107";
+}
+
+#footer {
+    text-align: left;
+}
+
+.footer-col {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+    text-align: left;
+}
+
+ul li a:hover {
+    text-decoration: 0;
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .bg-hero-banner {
+        padding-top: 20%;
+    }
+}
