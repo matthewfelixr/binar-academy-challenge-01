@@ -107,14 +107,10 @@ h1 {
     border-bottom-left-radius: .25rem;
 }
 
-.accordion>.card:not(:last-of-type) {
+.accordion>.card {
     border-bottom: 0.5px groove!important;
     border-color: #d4d4d4;
     border-radius: .25rem !important;
-}
-
-.card-header {
-    margin-bottom: 0 !important;
 }
 
 #faq .card .card-header .btn-header-link {
